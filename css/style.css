@@ -1,0 +1,320 @@
+@charset "utf-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 100, 300, 400, 500, 700, 800;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    vertical-align: top;
+}
+body {
+    background-color: #eaeaea;
+}
+/* 공통클래스 */
+.section {
+    padding: 70px 0;
+    /* border: 1px solid black;   */
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title {
+    font-size: 60px;
+    padding: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* 헤더영역 */
+header {
+    top: 50px;
+    right: 55px;
+    width: 200px;
+    height: 300px;
+    /* padding: 15px; */
+    /* border: 1px solid #222; */
+    /* background-color: #222; */
+    position: fixed;
+
+}
+header .container {
+    
+}
+header nav {
+    
+
+}
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+header nav ul li {
+    justify-content: space-between;
+    
+}
+header nav ul li a {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: -1.5px;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+header nav ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    transform: translateY(70%);
+}
+/* 메인 영역 */
+/* 홈영역 */
+#home {
+    background: url('../images/Sequence\ 03_1.gif') no-repeat;
+    background-size:cover;
+    height: 100vh;
+    
+}
+#home .container {
+    max-width: 1400px;
+    height: 100vh;
+    /* border: 1px solid red; */
+
+}
+#home .container h2 {
+    font-size: 60px;
+    color: #fff;
+}
+/* 어바웃영역 */
+#about {
+    background-color: #9bd9e5;
+}
+#about-1, #about-2 {
+    
+   
+}
+.title span {
+    color: #3cb2ca;
+}
+/* 어바웃 1영역 */
+
+#about-1 .container {
+    max-width: 1200px; 
+    /* border: 1px solid red; */
+    position: relative;
+    
+    
+}
+#about-1 button {
+    position: absolute;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    top: 33px;
+    right: 10px;
+    border-radius: 25px;
+}
+
+#about-1 .title .span {}
+#about-1 .title .span {}
+#about-1 .container .profile p {
+    font-family: 'TheJamsil5Bold';
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #eee;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+#about-1 img {
+    max-width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    outline-offset: -30px;
+    outline-color: #fff;
+    outline-style: solid;
+    outline-width: 3px; 
+}
+/* #about-1 p {
+    font-family: 'JalnanGothic';
+    padding-top: 20px;
+    font-size: 24px;
+    color: #eee;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#about-1 span {
+    font-family: 'JalnanGothic';
+    font-size: 24px;
+    color: #eee;
+    line-height: 1.5;
+    font-weight: bold;
+} */
+
+
+/* 어바웃 2영역 */
+#about-2 .container {
+    max-width: 1200px;
+    /* padding-top: 30px;
+    width: 1200px;  */
+   
+}
+#about-2 .interview {
+    /* width:100%; */
+    height: 500px;
+    border-radius: 10px;
+    overflow:hidden;
+
+}
+#about-2 .interview iframe {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    outline-offset: -30px;
+    outline-color: #fff;
+    outline-style: solid;
+    outline-width: 3px;
+    
+}
+/* experience 영역 */
+#experience {
+    background-color: #3cb1c9;
+}
+#experience .container {
+    max-width: 1200px;   
+    /* border: 1px solid red; */
+    position: relative
+}
+#experience .container .title {}
+#experience .container .date-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 40%;   
+}
+#experience .container .date {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    right: 60%;
+    letter-spacing: 2px;
+    
+}
+#experience .container .date-text {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    top: -40px;
+    left: 5%;
+    letter-spacing: 3px;
+}
+/* eperience - bar */
+#experience .container .date-bar {
+    position: absolute;
+    width: 1px;
+    height: 650px;
+    border-right: 2px solid #3AEBB6;
+    top: 15%;
+    bottom: 0;
+    left: 15%
+}
+/* skill - progress bar */
+#skill {
+    background-color: #3cb1c9;
+    
+}
+#skill .container {
+    max-width: 1200px;   
+    /* border: 1px solid red; */
+    position: relative;
+}
+#skill .container .title {
+    color: black;
+    z-index: 999;
+}
+#skill .progress-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 60px;
+    column-gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /* border: 1px solid red; */
+    
+    
+}
+#skill .progress-bar .progress {
+    position: relative;
+    flex-basis: 21%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#skill .progress-bar .progress p  {
+    font-size: 20px;
+    position: absolute;
+    /* width: 150px; */
+    left: 50%;
+    bottom: -21%;
+    transform: translate(-50%,-50%);    
+    white-space: nowrap;
+    
+    /* text-align: center; */
+}
+/* #skill .progress-bar .progress p:nth-child(1) {
+     text-align: left;
+}
+#skill .progress-bar .progress p:nth-child(2) {
+    text-align: left;
+} */
+#skill .progress-bar .progress .progressbar-text {
+    font-size: 20px;
+    left: 50% !important;
+    top: 70% !important;
+    white-space: nowrap;
+    
+
+}
+#skill .progress-bar .progress img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+}
